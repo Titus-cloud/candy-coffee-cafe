@@ -1,3 +1,5 @@
+@use "./variables" as *;
+
 *{
   padding: 0;
   margin: 0;
@@ -8,3 +10,33 @@ body {
   font-family: 'Poppins', sans-serif;
   color: #fff;
 }
+
+li{
+  list-style: none;
+  display: flex;
+}
+
+li a{
+  color: $font-color;
+}
+
+li a:hover{
+color: $link-hover;
+}
+
+a{
+  text-decoration: none;
+}
+
+a{
+  color:#fff;
+}
+
+a:hover{
+  color: $link-hover;
+  }
+
+  .container{
+    width: 80%;
+    margin: 0 auto;
+  }
