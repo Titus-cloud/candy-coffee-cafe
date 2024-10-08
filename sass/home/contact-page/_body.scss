@@ -1,0 +1,111 @@
+@use "../../utilities/variables" as *;
+
+.contact-section {
+  padding: 100px 20px;
+  background-color: $primary-color;
+
+  .container {
+ 
+
+      h1 {
+          font-size: 2.5em;
+          margin-bottom: 10px;
+      }
+
+      p {
+          font-size: 1.2em;
+          margin-bottom: 20px;
+      }
+  }
+
+  .contact-info {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 30px;
+
+      .info-item {
+          display: flex;
+          align-items: center;
+
+          i {
+              font-size: 1.5em;
+              margin-right: 10px;
+              color: $font-color;
+          }
+
+          p {
+              font-size: 1em;
+              color: $font-color;
+          }
+      }
+  }
+
+  .contact-form {
+      .input-group {
+          margin-bottom: 15px;
+
+          input,
+          textarea {
+              width: 100%;
+              padding: 10px;
+              // border: 1px solid #ccc;
+              border-radius: 5px;
+              resize: none;
+              font-size: 1em;
+          }
+      }
+
+      .submit-btn {
+          background-color: $primary-color;
+          color: $font-color;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          font-size: 1em;
+          transition: background-color 0.3s;
+
+          &:hover {
+              background-color: darken($primary-color, 10%);
+          }
+      }
+  }
+
+  .partner-button {
+      margin: 20px 0;
+
+      .btn-partner {
+          background-color: $link-hover;
+          color: $primary-color;
+          padding: 15px 25px;
+          border-radius: 25px;
+          font-size: 1.2em;
+          text-decoration: none;
+          transition: transform 0.3s, box-shadow 0.3s;
+
+          &:hover {
+              transform: scale(1.05);
+              box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+          }
+      }
+  }
+
+  .social-media {
+      margin-top: 30px;
+
+      h3 {
+          margin-bottom: 10px;
+      }
+
+      a {
+          margin: 0 10px;
+          color: $font-color;
+          font-size: 1.5em;
+          transition: color 0.3s;
+
+          &:hover {
+              color: $link-hover;
+          }
+      }
+  }
+}
