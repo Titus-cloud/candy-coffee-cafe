@@ -1,8 +1,8 @@
-@use "../utilities/variables" as *;
+@use "../../utilities/variables" as *;
 
 nav {
   background: $primary-color;
-  padding: 10px 0;
+  // padding: 10px 0;
   position: fixed;
   width: 100%;
   top: 0;
@@ -13,17 +13,18 @@ nav {
 
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
 .logo img {
-  height: 40px;
+  height: 60px;
   border-radius: 50%;
 }
 
 .nav-links {
   list-style: none;
+  padding-left: 50px;
   display: flex;
   gap: 30px;
 }
@@ -32,9 +33,11 @@ nav {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  transition: color 0.3s ease;
+  // transition: color 0.3s ease;
+  transition: color 0.3s, transform 0.3s;
 }
 
 .nav-links a:hover {
   color: #FF6C00;
+  transform: scale(1.1); 
 }
