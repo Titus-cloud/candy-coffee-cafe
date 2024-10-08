@@ -1,4 +1,54 @@
 body {
-  background-color: red;
-  background-image: -moz-linear-gradient();
+  background-color: #3b2f2f;
+}
+
+.types {
+  color: white;
+  text-decoration: underline;
+  align-items: center;
+}
+
+.menu {
+  color: aliceblue;
+}
+
+.style {
+  color: peru;
+  text-wrap: wrap;
+  flex-shrink: 2%;
+}
+
+.card {
+  justify-content: space-between;
+}
+
+.espresso {
+  flex-direction: row;
+  text-wrap: wrap;
+}
+
+.start {
+  display: -ms-inline-grid;
+  flex-direction: row;
+}
+
+.images {
+  box-shadow: #3b2f2f;
+  border-radius: 100px;
+  padding: 10px;
+  position: sticky;
+}
+
+.side {
+  display: flex;
+  height: 1000px;
+  overflow: scroll;
+  box-sizing: border-box;
+}
+
+.body {
+  background-image: url(https://cdn.dribbble.com/userupload/16054621/file/original-6daacd2b0238319de561d0ff8e948b81.png?resize=1024x768);
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
 }
