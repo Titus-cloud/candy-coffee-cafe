@@ -1,9 +1,5 @@
 body {
   background-color: #3b2f2f;
-  background-image: url("/https://cdn.dribbble.com/userupload/16054621/file/original-6daacd2b0238319de561d0ff8e948b81.png?resize=1024x768");
-  background-size: cover;
-  height: 100vh;
-  background-position: center;
 }
 
 .types {
@@ -50,8 +46,8 @@ body {
   box-sizing: border-box;
 }
 
-.best {
-  background-image: url("/https://cdn.dribbble.com/userupload/16054621/file/original-6daacd2b0238319de561d0ff8e948b81.png?resize=1024x768");
+.body {
+  background-image: url(https://cdn.dribbble.com/userupload/16054621/file/original-6daacd2b0238319de561d0ff8e948b81.png?resize=1024x768);
   background-size: cover;
   height: 100vh;
   background-position: center;
