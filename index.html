@@ -9,56 +9,249 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Navbar -->
     <header>
-    <div class="container">
-      <nav class="navbar">
-        <div class="logo">
-          <img src="./images/home/logo.png" alt="logo" />
-        </div>
-        <ul class="nav-links">
-          <li><a href="#">Our Place</a></li>
-          <li><a href="#">Our Coffee</a></li>
-          <li><a href="#">Menu</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
+      <div class="container">
+        <nav class="navbar">
+          <div class="logo">
+            <img src="./images/home/logo.png" alt="logo" class="logo" />
+          </div>
+
+          <ul class="nav-links">
+            <li><a href="#">Our Place</a></li>
+            <li><a href="#">Our Coffee</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="contact.html" target="_blank">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- Hero Section with Video Background -->
+        <section class="hero">
+          <video
+            class="background-video"
+            src="./images/home/hvideo.mp4"
+            autoplay
+            muted
+            loop
+          ></video>
+          <div class="hero-content">
+            <h1>Coffee. It's our thing.</h1>
+            <p>A place where you can enjoy a good cup of coffee.</p>
+            <a href="#" class="btn">ENJOY YOUR NOW</a>
+          </div>
+        </section>
+      </div>
     </header>
 
-    <!-- Hero Section with Video Background -->
-    <section class="hero">
-      <video
-        class="background-video"
-        src="./images/home/hvideo.mp4"
-        autoplay
-        muted
-        loop
-      ></video>
-      <div class="hero-content">
-        <h1>Coffee. It's our thing.</h1>
-        <p>A place where you can enjoy a good cup of coffee.</p>
-        <a href="#" class="btn">ENJOY YOUR NOW</a>
+    <section class="our-service">
+      <div class="container">
+        <h2>OUR COFFEE</h2>
+        <div class="service-container service-scrollable">
+          <div class="service-card">
+            <img src="./images/home/img1.png" alt="Coffee and Tea" />
+            <div class="service-content">
+              <h3>COFFEE AND TEA</h3>
+              <a href="#" class="service-link">
+                <span class="arrow">&rarr;</span>
+              </a>
+            </div>
+          </div>
+          <div class="service-card">
+            <img src="./images/home/img.png" alt="Brewers Equipment" />
+            <div class="service-content">
+              <h3>BREWERS EQUIPMENT</h3>
+              <a href="#" class="service-link">
+                <span class="arrow">&rarr;</span>
+              </a>
+            </div>
+          </div>
+          <div class="service-card">
+            <img src="./images/home/img2.png" alt="Paper, Janitorial" />
+            <div class="service-content">
+              <h3>PAPER, JANITORIAL</h3>
+              <a href="#" class="service-link">
+                <span class="arrow">&rarr;</span>
+              </a>
+            </div>
+          </div>
+          <div class="service-card">
+            <img src="./images/home/img3.png" alt="Food & Beverage" />
+            <div class="service-content">
+              <h3>FOOD & BEVERAGE</h3>
+              <a href="#" class="service-link">
+                <span class="arrow">&rarr;</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <img src="./images/home/img4.png" alt="Brewers Equipment" />
+            <div class="service-content">
+              <h3>BREWERS EQUIPMENT</h3>
+              <a href="#" class="service-link">
+                <span class="arrow">&rarr;</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <img src="./images/home/img5.png" alt="Brewers Equipment" />
+            <div class="service-content">
+              <h3>BREWERS EQUIPMENT</h3>
+              <a href="#" class="service-link">
+                <span class="arrow">&rarr;</span>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
     </section>
 
-    <!-- Footer -->
-    <footer>
-      <div class="social-icons">
-        <a href="https://www.instagram.com/" target="_blank"
-          ><i class="fab fa-instagram"></i
-        ></a>
-        <a href="https://www.facebook.com/" target="_blank"
-          ><i class="fab fa-facebook-f"></i
-        ></a>
-        <a href="https://x.com/" target="_blank"
-          ><i class="fab fa-twitter"></i
-        ></a>
-        <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+    <!-- testimonials -->
+    <section class="testimonials">
+      <h2 class="title">Testimonial</h2>
+      <h3 class="subtitle">What Our Customers Say</h3>
+    
+      <div class="testimonial-slider">
+        <div class="testimonial-card">
+          <div class="quote">“</div>
+          <h4>Sweetness</h4>
+          <p>Yes, I have had coffee from different quaters but Candy's proved to me that I have not yet tasted real sweetness of coffee</p>
+          <div class="author">
+            <img src="path_to_image" alt="Customer Image">
+            <p class="name">Alexa Dile</p>
+            <p class="position">HR</p>
+          </div>
+        </div>
+    
+        <div class="testimonial-card">
+          <div class="quote">“</div>
+          <h4>Thirst reliever</h4>
+          <p>I totally agree that when you are thursty you need to take water but when it comes to Candy Cafe they show you that you only need a sip of Mocha.</p>
+          <div class="author">
+            <img src="path_to_image" alt="Customer Image">
+            <p class="name">Fidel Kian</p>
+            <p class="position">CEO</p>
+          </div>
+        </div>
+    
+        <div class="testimonial-card">
+          <div class="quote">“</div>
+          <h4>Cleanness and Order</h4>
+          <p>You don't only get coffee at Candy Cafe but also sense of orderliness and you can smell cleanliness that keeps you welcomed</p>
+          <div class="author">
+            <img src="path_to_image" alt="Customer Image">
+            <p class="name">Andrew D.</p>
+            <p class="position">Director</p>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="quote">“</div>
+          <h4>Humor</h4>
+          <p>If you feel like you are bored or dull kindly visit Candy Coffee Cafe and I bet you will come with your spirits elevated to tackle anything</p>
+          <div class="author">
+            <img src="path_to_image" alt="Customer Image">
+            <p class="name">Kiarie Andia</p>
+            <p class="position">Supervisor</p>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="quote">“</div>
+          <h4>Real Coffee Taste</h4>
+          <p>Please if you feel like the coffee you make doesn't satisfy your urge try paying Candy Coffee Caffee a visit for only there your real urge of real coffee will be desolved.</p>
+          <div class="author">
+            <img src="path_to_image" alt="Customer Image">
+            <p class="name">Kenny K.</p>
+            <p class="position">Doctor</p>
+          </div>
+        </div>
+
+        <div class="testimonial-card"></div>
+          <div class="quote">“</div>
+          <h4>Sweet and Swift</h4>
+          <p>You don't only get coffee at Candy Cafe but also sense of orderliness and you can smell cleanliness that keeps you welcomed</p>
+          <div class="author">
+            <img src="path_to_image" alt="Customer Image">
+            <p class="name">Andrew D.</p>
+            <p class="position">Director</p>
+          </div>
+        </div>
       </div>
-      <a href="#"><p>www.candycoffeecafe.com</p></a>
+    
+      <div class="dots">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer-container">
+      <div class="footer-left">
+        <img
+          src="./images/home/logo.png"
+          alt="Candy coffee cafe Service Logo"
+          class="logo"
+        />
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <div class="quick-links">
+        <h4>LINK WITH US</h4>
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">OURCOFFEE</a></li>
+          <li><a href="#">MENU</a></li>
+          <li><a href="#">OURPLACE</a></li>
+          <li><a href="./contact.html" target="_blank">CONTACT</a></li>
+        </ul>
+      </div>
+
+      <div class="contact-info">
+        <h4>CONTACT</h4>
+        <p>+254 790 0000 111</p>
+        <p><a href="mailto:candycoffeecafe.net">WWW.CANDYCOFFEECAFE.NET</a></p>
+        <p>4446000 KIBRA MASHIMONI</p>
+        <p>NAIROBI</p>
+      </div>
+
+      <div class="newsletter">
+        <h4>SUBSCRIBE NEWSLETTER</h4>
+        <p>
+          We always have something new and much appealing to your coffee taste
+          everyday thus we always want you to be a first partaker.
+        </p>
+        <form>
+          <div class="mail-box">
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter Your Email"
+              class="input"
+            />
+            <button class="subscribe-btn" type="submit">submit</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="footer-bottom">
+        <p>CopyRight By CANDYCOFFEECAFE.NET All Right Reserved 2024</p>
+      </div>
     </footer>
   </body>
 </html>

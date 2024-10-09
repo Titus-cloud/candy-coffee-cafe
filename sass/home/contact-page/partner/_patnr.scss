@@ -1,0 +1,72 @@
+$bg-color: #f9f5f1;
+$text-color: #7a5244;
+$input-bg: #fff3e9;
+$border-color: #ccc;
+$button-bg: #8b5e34;
+$button-hover-bg: #5c3a22;
+
+.partnership-form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: $bg-color;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
+  label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+    color: $text-color;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="url"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid $border-color;
+    border-radius: 5px;
+    background-color: $input-bg;
+  }
+
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+
+  button {
+    padding: 15px;
+    background-color: transparent;
+    color: #f4a261;
+    border: 2px solid #f4a261;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: #f4a261;
+      color: #231915;
+    }
+  }
+
+  .phone-section {
+    display: flex;
+    gap: 10px;
+
+    select {
+      width: 25%;
+    }
+
+    input {
+      width: 75%;
+    }
+  }
+}

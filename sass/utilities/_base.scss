@@ -40,6 +40,7 @@ a:hover{
 
   .container{
     max-width: 1200px;
+    // background-color: #231915;
     margin: 10px auto;
     // padding: 50px 20px;
     text-align: center;
@@ -85,4 +86,11 @@ a:hover{
   .nav-links a:hover {
     color: #FF6C00;
     transform: scale(1.1); 
+  }
+
+  .logo {
+    height: 60px;
+    border-radius: 50%;
+    // align-self: center;
+    margin-left: 3em;
   }
