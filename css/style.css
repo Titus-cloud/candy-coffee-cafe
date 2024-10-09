@@ -3,49 +3,49 @@
     flex-direction: column;
     align-items: center;
   }
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 7px;
+    border: 1px solid black;
+  }
+  .types {
+    color: white;
+    text-decoration: underline;
+    align-items: center;
+  }
+  .menu {
+    color: aliceblue;
+    -webkit-text-decoration: wavy;
+            text-decoration: wavy;
+  }
+  .style {
+    color: peru;
+    text-wrap: wrap;
+    flex-shrink: 2%;
+  }
+  .card {
+    justify-content: space-between;
+    display: flex;
+    border: 1px thick black;
+    align-items: center;
+  }
+  .images {
+    box-shadow: #3b2f2f;
+    border-radius: 50px;
+    padding: 10px;
+    position: sticky;
+  }
 }
-.best {
-  background-color: #3A1F04;
-}
-
-.cards {
-  flex-direction: column;
-  justify-content: space-between;
-  border-radius: 7px;
-  border: 1px solid black;
-}
-
-.types {
-  color: white;
-  text-decoration: underline;
-  align-items: center;
-}
-
-.menu {
-  color: aliceblue;
-  -webkit-text-decoration: wavy;
-          text-decoration: wavy;
-}
-
-.style {
-  color: peru;
-  text-wrap: wrap;
-  flex-shrink: 2%;
-}
-
-.images {
-  box-shadow: #3b2f2f;
-  border-radius: 50px;
-  padding: 10px;
-  position: sticky;
-}
-
 .side {
-  height: 170px;
+  display: flex;
+  height: 1700px;
+  align-content: center;
   overflow: scroll;
   box-sizing: border-box;
 }
 
+yvonne
 .espresso {
   display: flex;
   border: 1px solid white;
@@ -137,7 +137,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-<<<<<<< HEAD
+
   color: #fff;
   background-color: #221A13;
 }
@@ -975,6 +975,7 @@ button:hover {
   padding: 20px;
 }
 
+
 .container {
   max-width: 1200px;
   margin: auto;
@@ -989,15 +990,7 @@ h1, h2, h3 {
 }
 .best .menu {
   font-weight: bold;
-  color: #302424;
-}
-.best .types {
-  list-style-type: none;
-  padding: 0;
-}
-.best .types li {
-  margin: 5px 0;
-  font-weight: 500;
+  color: white;
 }
 
 .cards {
@@ -1006,11 +999,11 @@ h1, h2, h3 {
   justify-content: space-around;
 }
 .cards .espresso, .cards .latte, .cards .black, .cards .mocha, .cards .americano, .cards .cappuccino, .cards .flat-white, .cards .cafe, .cards .macchiato, .cards .cold, .cards .frappe, .cards .red {
-  background-color: #b69d9d;
+  background-color: #907373;
   border-radius: 8px;
   margin: 10px;
   padding: 15px;
-  width: calc(30% - 40px);
+  width: 30%;
 }
 .cards .espresso h2, .cards .latte h2, .cards .black h2, .cards .mocha h2, .cards .americano h2, .cards .cappuccino h2, .cards .flat-white h2, .cards .cafe h2, .cards .macchiato h2, .cards .cold h2, .cards .frappe h2, .cards .red h2 {
   margin: 0;
@@ -1025,15 +1018,22 @@ h1, h2, h3 {
   margin-top: 10px;
 }
 
-@media (max-width: 768px) {
-  .cards {
-    flex-direction: column;
-    align-items: center;
-  }
-  .espresso, .latte, .black, .mocha, .americano, .cappuccino, .flat-white, .cafe, .macchiato, .cold, .frappe, .red {
-    width: 90%;
-  }
+.espresso, .latte, .black, .mocha, .americano, .cappuccino, .flat-white, .cafe, .macchiato, .cold, .frappe, .red {
+  width: 90%;
 }
+
+.types {
+  color: white;
+  text-decoration: underline;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+}
+.types li {
+  margin: 5px 0;
+  font-weight: 500;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -1041,5 +1041,4 @@ h1, h2, h3 {
 
 .our-place {
   background-color: black;
->>>>>>> development
 }
