@@ -1,0 +1,150 @@
+button {
+  padding: 15px;
+  background-color: transparent;
+  color: #f4a261;
+  border: 2px solid #f4a261;
+  font-size: 16px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: #f4a261;
+    color: #231915;
+  }
+}
+
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: #231915;
+  color: #fff;
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+
+  .contact-info {
+    // width: 40%;
+    // padding-right: 50px;
+
+    h2 {
+      font-size: 48px;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+
+    .info-item {
+      margin-bottom: 20px;
+      
+      strong {
+        display: block;
+        font-size: 18px;
+        margin-bottom: 10px;
+        font-weight: 700;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 1.5;
+
+        a {
+          color: #f4a261;
+          text-decoration: none;
+
+          &:hover {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  .contact-form {
+    width: 45%;
+    background-color: #2a1f1a;
+    padding: 30px;
+    border: 1px solid #f4a261;
+    border-radius: 15px;
+    position: relative;
+
+    form {
+      display: flex;
+      flex-direction: column;
+
+      input {
+        padding: 15px;
+        margin-bottom: 20px;
+        background-color: #1f1a16;
+        border: 2px solid #f4a261;
+        color: #fff;
+        border-radius: 5px;
+        font-size: 16px;
+        outline: none;
+        transition: all 0.3s ease;
+
+        &::placeholder {
+          color: #bdbdbd;
+        }
+
+        &:focus {
+          border-color: #fff;
+          background-color: #2a1f1a;
+        }
+      }
+
+ 
+    }
+  }
+
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 30px; /* Maintain spacing between icons */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -10px; /* Moves the icons to the immediate right of the form without touching the form border */
+    z-index: 1; /* Ensure icons are visible but not touching form */
+
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50px;
+      height: 50px;
+      background-color: #f4a261;
+      border-radius: 50%;
+      color: #231915;
+      font-size: 20px;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background-color: #fff;
+        color: #f4a261;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-section {
+    flex-direction: column;
+    padding: 20px;
+
+    .contact-info,
+    .contact-form {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .social-icons {
+      position: static;
+      flex-direction: row;
+      justify-content: center;
+      gap: 10px;
+    }
+  }
+}
