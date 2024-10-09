@@ -800,19 +800,18 @@ button:hover {
 }
 
 @media (max-width: 768px) {
+  .coffee-cup {
+    display: none; /* Hides the coffee cup image */
+  }
   .about-section {
     flex-direction: column;
     text-align: center;
-  }
-  .coffee-cup {
-    margin-right: 0;
-    margin-bottom: 20px;
-  }
-  .coffee-cup img {
-    width: 150px;
+    justify-content: center;
+    width: 100%;
   }
   .about-content {
     max-width: 100%;
+    padding: 0 20px; /* Adds padding to avoid text touching screen edges */
   }
   .about-content h2 {
     font-size: 28px;
@@ -827,9 +826,6 @@ button:hover {
 }
 /* Responsive for mobile (less than 480px) */
 @media (max-width: 480px) {
-  .coffee-cup img {
-    width: 120px;
-  }
   .about-content h2 {
     font-size: 24px;
   }
