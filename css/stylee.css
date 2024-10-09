@@ -4,5 +4,11 @@
 body{
 
     /* background-color: ; */
-    background-image: url(https://cdn.dribbble.com/userupload/11865901/file/original-6b5c2dd55013e7799f023bee50283d96.png?resize=752x564&vertical=center);
+    background-image: url(https://plus.unsplash.com/premium_photo-1675237625862-d982e7f44696?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cGxhaW4lMjBjb2ZmZWUlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww);
+}
+.para{
+    color:white;
+}
+.place{
+    color:rgb(223, 99, 10);
 }

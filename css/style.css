@@ -1,3 +1,8 @@
+.container {
+  margin: 0 auto;
+  max-width: 300px;
+}
+
 body {
   background-color: #3b2f2f;
 }
@@ -18,13 +23,23 @@ body {
   flex-shrink: 2%;
 }
 
-.card {
-  justify-content: space-between;
+.cards {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.espresso {
-  flex-direction: row;
-  text-wrap: wrap;
+div {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 3em;
+  padding: 20px;
+  text-align: center;
+  gap: 20%;
+}
+
+.cappucino {
+  display: flex;
 }
 
 .start {
@@ -33,8 +48,7 @@ body {
 }
 
 .images {
-  box-shadow: #3b2f2f;
-  border-radius: 100px;
+  box-shadow: #9b2626;
   padding: 10px;
   position: sticky;
 }
@@ -46,8 +60,16 @@ body {
   box-sizing: border-box;
 }
 
+.nav {
+  overflow: hidden;
+  width: 100vw;
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
+}
+
 .body {
-  background-image: url(https://cdn.dribbble.com/userupload/16054621/file/original-6daacd2b0238319de561d0ff8e948b81.png?resize=1024x768);
+  background-image: url("images/Pasted image.png");
   background-size: cover;
   height: 100vh;
   background-position: center;
