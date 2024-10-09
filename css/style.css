@@ -19,7 +19,7 @@ li a {
 }
 
 li a:hover {
-  color: #AF6353;
+  color: #b57330;
 }
 
 a {
@@ -31,7 +31,7 @@ a {
 }
 
 a:hover {
-  color: #AF6353;
+  color: #b57330;
 }
 
 .container {
@@ -91,7 +91,7 @@ nav {
   justify-content: space-between;
   align-items: flex-start;
   padding: 40px;
-  background-color: #231915;
+  background-color: #221A13;
   color: #fff;
   flex-wrap: wrap;
 }
@@ -124,15 +124,13 @@ nav {
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  background-color: #fff;
-  color: #231915;
   text-align: center;
   line-height: 35px;
   font-size: 16px;
   transition: background-color 0.3s ease;
 }
 .footer-container .footer-left .social-icons a:hover {
-  background-color: #f4a261;
+  background-color: #b57330;
   color: #fff;
 }
 .footer-container .quick-links ul {
@@ -147,7 +145,7 @@ nav {
   text-decoration: none;
 }
 .footer-container .quick-links ul li a:hover {
-  color: #f4a261;
+  color: #b57330;
 }
 .footer-container .contact-info p {
   margin: 8px 0;
@@ -158,7 +156,7 @@ nav {
   text-decoration: none;
 }
 .footer-container .contact-info p a:hover {
-  color: #f4a261;
+  color: #b57330;
 }
 .footer-container .newsletter p {
   font-size: 14px;
@@ -173,7 +171,7 @@ nav {
   padding: 10px;
   width: 80%;
   border: none;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #b57330;
   background: none;
   color: #fff;
   font-size: 14px;
@@ -195,8 +193,8 @@ nav {
   font-size: 16px;
 }
 .footer-container .newsletter .mail-box .subscribe-btn:hover {
-  background-color: #f4a261;
-  border-color: #f4a261;
+  background-color: #b57330;
+  border-color: #b57330;
 }
 .footer-container .footer-bottom {
   width: 100%;
@@ -257,7 +255,7 @@ nav {
 }
 
 .hero .btn {
-  background-color: #AF6353;
+  background-color: #b57330;
   color: #fff;
   padding: 10px 20px;
   text-decoration: none;
@@ -267,7 +265,7 @@ nav {
 }
 
 .hero .btn:hover {
-  background-color: #AF6353;
+  background-color: #b57330;
 }
 
 nav {
@@ -300,7 +298,7 @@ nav {
 }
 
 .nav-links a:hover {
-  color: #AF6353;
+  color: #b57330;
 }
 
 @media (max-width: 768px) {
@@ -529,9 +527,9 @@ button:hover {
 }
 .our-service .container .service-scrollable {
   display: flex;
-  flex-wrap: nowrap; /* Prevent wrapping */
-  gap: 20px; /* Space between cards */
-  overflow-x: auto; /* Enables horizontal scrolling */
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
   padding-bottom: 10px;
   /* For all browsers */
   -ms-overflow-style: none;
@@ -695,6 +693,15 @@ button:hover {
     width: 100%;
   }
 }
+.monials-scrollable .service-scrollable {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  /* For all browsers */
+  -ms-overflow-style: none;
+}
 .testimonials {
   text-align: center;
   padding: 50px 0;
@@ -715,14 +722,11 @@ button:hover {
   overflow-x: scroll;
   scroll-behavior: smooth;
 }
-.testimonials .testimonial-slider::-webkit-scrollbar {
-  display: none; /* Hide scroll bar */
-}
 .testimonials .testimonial-slider .testimonial-card {
-  background-color: #221A13;
+  background-color: #2D2017;
   border-radius: 10px;
-  border: 1px solid orange;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #b57330;
+  box-shadow: rgba(0, 0, 0, 0.2);
   margin: 0 10px;
   padding: 20px;
   flex: 0 0 300px;
@@ -731,7 +735,7 @@ button:hover {
 }
 .testimonials .testimonial-slider .testimonial-card .quote {
   font-size: 48px;
-  color: #20c997;
+  color: #b57330;
   position: absolute;
   top: 10px;
   left: 10px;
@@ -739,7 +743,7 @@ button:hover {
 .testimonials .testimonial-slider .testimonial-card h4 {
   font-size: 18px;
   margin-top: 50px;
-  color: #fff;
+  color: #b57330;
 }
 .testimonials .testimonial-slider .testimonial-card p {
   font-size: 14px;
@@ -749,6 +753,7 @@ button:hover {
 .testimonials .testimonial-slider .testimonial-card .author {
   display: flex;
   align-items: center;
+  align-content: center;
 }
 .testimonials .testimonial-slider .testimonial-card .author img {
   width: 50px;
@@ -757,6 +762,7 @@ button:hover {
   margin-right: 10px;
 }
 .testimonials .testimonial-slider .testimonial-card .author .name {
+  display: inline-block;
   font-weight: bold;
   font-size: 14px;
 }
@@ -766,16 +772,4 @@ button:hover {
 }
 .testimonials .dots {
   margin-top: 20px;
-}
-.testimonials .dots .dot {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  background-color: #ccc;
-  border-radius: 50%;
-  margin: 0 5px;
-  cursor: pointer;
-}
-.testimonials .dots .dot.active {
-  background-color: #20c997;
 }
