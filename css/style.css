@@ -7,6 +7,7 @@
 body {
   font-family: "Poppins", sans-serif;
   color: #fff;
+  background-color: #221A13;
 }
 
 li {
@@ -35,7 +36,7 @@ a:hover {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 80%;
   margin: 10px auto;
   text-align: center;
 }
@@ -265,7 +266,7 @@ nav {
 }
 
 .hero .btn:hover {
-  background-color: #b57330;
+  background-color: #221A13;
 }
 
 nav {
@@ -292,7 +293,7 @@ nav {
 }
 
 .nav-links a {
-  color: white;
+  color: #fff;
   text-decoration: none;
   font-weight: bold;
 }
@@ -457,7 +458,7 @@ button:hover {
 .our-service {
   text-align: center;
   padding: 40px 20px;
-  background-color: #2a1f1a;
+  background-color: #221A13;
 }
 .our-service h2 {
   font-size: 48px;
@@ -471,7 +472,7 @@ button:hover {
   gap: 30px;
 }
 .our-service .service-container .service-card {
-  background-color: #2a1f1a;
+  background-color: #2D2017;
   border-radius: 15px;
   overflow: hidden;
   width: 100%;
@@ -490,21 +491,20 @@ button:hover {
      object-fit: cover;
 }
 .our-service .service-container .service-card .service-content {
-  padding: 20px;
   text-align: center;
 }
 .our-service .service-container .service-card .service-content h3 {
-  font-size: 20px;
   color: #fff;
   font-weight: 600;
   margin-bottom: 15px;
 }
 .our-service .service-container .service-card .service-content .service-link {
-  display: inline-block;
+  display: block;
+  margin: 0 auto;
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: #f4a261;
+  background-color: #b57330;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -513,13 +513,10 @@ button:hover {
 }
 .our-service .service-container .service-card .service-content .service-link .arrow {
   font-size: 24px;
-  color: #2a1f1a;
+  color: #fff;
 }
 .our-service .service-container .service-card .service-content .service-link:hover {
-  background-color: #fff;
-}
-.our-service .service-container .service-card .service-content .service-link:hover .arrow {
-  color: #f4a261;
+  background-color: #b57330;
 }
 
 .our-service .container {
@@ -536,12 +533,11 @@ button:hover {
 }
 .our-service .container .service-card {
   flex: 0 0 250px; /* Set a fixed width for each card */
-  border: 1px solid #f4a261;
+  border: 1px solid #b57330;
   padding: 10px;
-  background: #2a1f1a;
   border-radius: 10px;
   text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .our-service .container .service-card img {
   width: 100%;
@@ -557,7 +553,6 @@ button:hover {
 }
 .our-service .container .service-card .service-content .service-link {
   font-size: 1.5rem;
-  color: #f08c4a;
 }
 
 @media screen and (max-width: 768px) {
@@ -569,16 +564,15 @@ button:hover {
 .partnership-form {
   max-width: 600px;
   margin: 0 auto;
-  background-color: #f9f5f1;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 .partnership-form label {
   font-weight: bold;
   margin-top: 10px;
   display: block;
-  color: #7a5244;
+  color: #fff;
 }
 .partnership-form input[type=text],
 .partnership-form input[type=email],
@@ -587,21 +581,24 @@ button:hover {
 .partnership-form textarea,
 .partnership-form select {
   width: 100%;
+  color: #221A13;
   padding: 10px;
   margin-top: 5px;
   margin-bottom: 15px;
-  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 5px;
-  background-color: #fff3e9;
+  background-color: #fff;
 }
 .partnership-form input[type=radio] {
   margin-right: 5px;
 }
 .partnership-form button {
   padding: 15px;
+  margin: 0 auto;
+  display: block;
   background-color: transparent;
-  color: #f4a261;
-  border: 2px solid #f4a261;
+  color: #fff;
+  border: 2px solid #b57330;
   font-size: 16px;
   cursor: pointer;
   text-transform: uppercase;
@@ -610,8 +607,8 @@ button:hover {
   transition: all 0.3s ease;
 }
 .partnership-form button:hover {
-  background-color: #f4a261;
-  color: #231915;
+  background-color: #b57330;
+  color: #fff;
 }
 .partnership-form .phone-section {
   display: flex;
@@ -772,4 +769,75 @@ button:hover {
 }
 .testimonials .dots {
   margin-top: 20px;
+}
+
+.about-section {
+  display: flex;
+  border-radius: 10px;
+}
+
+.coffee-cup {
+  margin-right: 10px;
+}
+.coffee-cup img {
+  opacity: 0.6;
+  height: 400px;
+}
+
+.about-content {
+  border: 2px solid #b57330;
+  border-radius: 10px;
+  max-width: 50%;
+  max-height: 60%;
+}
+.about-content h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+.about-content p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .about-section {
+    flex-direction: column;
+    text-align: center;
+  }
+  .coffee-cup {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .coffee-cup img {
+    width: 150px;
+  }
+  .about-content {
+    max-width: 100%;
+  }
+  .about-content h2 {
+    font-size: 28px;
+  }
+  .about-content p {
+    font-size: 16px;
+  }
+  .about-content .shop-button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
+/* Responsive for mobile (less than 480px) */
+@media (max-width: 480px) {
+  .coffee-cup img {
+    width: 120px;
+  }
+  .about-content h2 {
+    font-size: 24px;
+  }
+  .about-content p {
+    font-size: 14px;
+  }
+  .shop-button {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
 }
