@@ -1,5 +1,23 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 @media screen and (max-width: 600px) {
+=======
+
+@media screen and (max-width: 600px) {
+=======
+project
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+
+@media (max-width: 600px) {
+
+>>>>>>> 23fff8e28a5c193212346f04799e0c040626859d
   .container {
     flex-direction: column;
     align-items: center;
@@ -203,6 +221,7 @@ h3 {
 .blak img {
   display: block;
 }
+<<<<<<< HEAD
 =======
 project
 * {
@@ -214,6 +233,8 @@ project
 body {
   font-family: "Poppins", sans-serif;
 >>>>>>> 40f56abb29fb2b4d069c96a75cb6d105f521f72e
+=======
+>>>>>>> 23fff8e28a5c193212346f04799e0c040626859d
 
 @media (max-width: 600px) {
   .container {
@@ -228,10 +249,10 @@ body {
   padding: 0;
 }
 
-<<<<<<< HEAD
+
 section {
   padding: 20px;
-=======
+
 yvonne
 .espresso {
   display: flex;
@@ -1108,12 +1129,23 @@ button:hover {
   max-width: 1200px;
   margin: auto;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 97df45c8d2906d7a2c4b2022ea89fa8e56e4dfa1
+=======
+
+
+>>>>>>> 23fff8e28a5c193212346f04799e0c040626859d
 }
 
 .place {
   color: #fff;
+<<<<<<< HEAD
 =======
+=======
+  font-weight: bold;
+  margin-bottom: 10px;
+
+>>>>>>> 23fff8e28a5c193212346f04799e0c040626859d
  development
 }
 h1 {
@@ -1130,6 +1162,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
+
 }
 .coffee-menu .menu-grid .menu-item {
   background-color: #2D2017;
@@ -1139,6 +1172,7 @@ h1 {
   padding: 20px;
   border: 2px solid #b57330;
 
+<<<<<<< HEAD
 .best {
   margin-bottom: 20px;
 }
@@ -1148,6 +1182,8 @@ h1 {
   margin-bottom: 10px;
 }
 
+=======
+>>>>>>> 23fff8e28a5c193212346f04799e0c040626859d
 h2 {
   font-size: 24px;
   margin: 20px 0;
@@ -1175,6 +1211,7 @@ h3 {
 .flex-container img {
   margin: 10px;
 <<<<<<< HEAD
+<<<<<<< HEAD
   border-radius: 5px;
 }
 
@@ -1186,6 +1223,11 @@ h3 {
 }
 .sections h3 {
 =======
+=======
+
+  border-radius: 5px;
+
+>>>>>>> 23fff8e28a5c193212346f04799e0c040626859d
   padding: 15px;
   width: 30%;
  
@@ -1197,12 +1239,18 @@ h3 {
 }
 .coffee-menu .menu-grid .menu-item h2 {
   font-size: 1.5rem;
+<<<<<<< HEAD
 >>>>>>> 40f56abb29fb2b4d069c96a75cb6d105f521f72e
   margin: 10px 0;
   color: #fff;
 }
 <<<<<<< HEAD
 =======
+=======
+  margin: 10px 0;
+  color: #fff;
+}
+>>>>>>> 23fff8e28a5c193212346f04799e0c040626859d
  project
 .coffee-menu .menu-grid .menu-item p {
   font-size: 1rem;
@@ -1214,37 +1262,45 @@ h3 {
 .cards .espresso h3, .cards .latte h3, .cards .black h3, .cards .mocha h3, .cards .americano h3, .cards .cappuccino h3, .cards .flat-white h3, .cards .cafe h3, .cards .macchiato h3, .cards .cold h3, .cards .frappe h3, .cards .red h3 {
   text-align: left;
   margin-top: 10px;
+
 }
+
+.sections {
+  margin-top: 30px;
+}
+.sections h2 {
+  margin-bottom: 20px;
+}
+.sections h3 {
+  margin: 10px 0;
+}
+<<<<<<< HEAD
 >>>>>>> 40f56abb29fb2b4d069c96a75cb6d105f521f72e
+=======
+>>>>>>> 23fff8e28a5c193212346f04799e0c040626859d
 
 .blak {
   display: inline-block;
   margin-right: 10px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .blak img {
   display: block;
 =======
+=======
+>>>>>>> 23fff8e28a5c193212346f04799e0c040626859d
 
-.types {
-  color: white;
-  text-decoration: underline;
-  align-items: center;
-  list-style-type: none;
-  padding: 0;
-}
-.types li {
-  margin: 5px 0;
-  font-weight: 500;
-}
+.blak img {
+  display: block;
 
-* {
-  margin: 0;
-  padding: 0;
-}
 
 .our-place {
   background-color: black;
 
+<<<<<<< HEAD
 >>>>>>> 40f56abb29fb2b4d069c96a75cb6d105f521f72e
+=======
+
+>>>>>>> 23fff8e28a5c193212346f04799e0c040626859d
 }
