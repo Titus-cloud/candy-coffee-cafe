@@ -24,7 +24,9 @@ body {
   padding: 10px 20px;
 
   .logo img {
-    width: 50px;
+    width: 12vw;
+    border-radius: 50%;
+
   }
 
   .links {
@@ -38,9 +40,12 @@ body {
     }
   }
 }
-.image{
+.card img{
   border: #333;
   border-radius: 50%;
+  width:45vw;
+  height:12vh;
+  border:1px solid black;
 }
 
 .shop-upper {
@@ -115,7 +120,7 @@ body {
 
 .footer {
   background-color:$footer-bg ;
-  color: $text-color;
+  color: $secondary-color;
   padding: 20px;
   display: flex;
   justify-content: space-around;

@@ -60,7 +60,8 @@ body {
   padding: 10px 20px;
 }
 .nav .logo img {
-  width: 50px;
+  width: 12vw;
+  border-radius: 50%;
 }
 .nav .links a {
   color: #f0e68c;
@@ -71,9 +72,12 @@ body {
   text-decoration: underline;
 }
 
-.image {
+.card img {
   border: #333;
   border-radius: 50%;
+  width: 45vw;
+  height: 12vh;
+  border: 1px solid black;
 }
 
 .shop-upper {
@@ -139,7 +143,7 @@ body {
 
 .footer {
   background-color: #333;
-  color: #fff;
+  color: #f0e68c;
   padding: 20px;
   display: flex;
   justify-content: space-around;
