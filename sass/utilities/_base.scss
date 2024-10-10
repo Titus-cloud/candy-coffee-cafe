@@ -1,0 +1,95 @@
+@use "./variables" as *;
+// @use "../home/land-page/nav" as *;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: $font-color;
+  background-color: $primary-color;
+  // overflow: hidden; 
+}
+
+li{
+  list-style: none;
+  display: flex;
+}
+
+li a{
+  color: $font-color;
+}
+
+li a:hover{
+color: $link-hover;
+}
+
+a{
+  text-decoration: none;
+}
+
+a{
+  color: $font-color;
+}
+
+a:hover{
+  color: $link-hover;
+  }
+
+  .container{
+    max-width: 80%;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  nav {
+    background: $primary-color;
+    // padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    /* filter: brightness(.9); */
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 60px;
+    border-radius: 50%;
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding-left: 50px;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    // transition: color 0.3s ease;
+    transition: color 0.3s, transform 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #FF6C00;
+    transform: scale(1.1); 
+  }
+
+  .logo {
+    height: 60px;
+    border-radius: 50%;
+    // align-self: center;
+    margin-left: 3em;
+  }

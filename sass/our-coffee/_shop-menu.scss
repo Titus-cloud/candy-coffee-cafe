@@ -1,0 +1,12 @@
+// @use '../../utilities/mixins' as *;
+
+
+.all-varieties{
+  // @include flex(center, center, column);
+  gap:3em;
+}
+.variaties{
+  gap: 2em;
+  // background-color: red;
+}
+
