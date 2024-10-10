@@ -1,187 +1,146 @@
-// *{
-  // margin:0;
-  // padding:0;
-// }
-@use "../utility/variables" as *;
-.container {
-  max-width: 1200px;
-  margin: auto;
-}
-h1, h2, h3 {
-  text-align: center;
+
+
+// Variables
+$font-stack: 'Poppins', sans-serif;
+$primary-color: #6f4c3e;
+$secondary-color: #f0e68c;
+$button-color: #a0522d;
+$footer-bg: #333;
+$text-color: #fff;
+
+// Global styles
+body {
+  font-family: $font-stack;
+  margin: 0;
+  padding: 0;
+  background-color:$primary-color;
 }
 
-.best {
-  margin-bottom: 20px;
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $primary-color;
+  padding: 10px 20px;
 
-  .menu {
-    font-weight: bold;
-    color:white;
+  .logo img {
+    width: 12vw;
+    border-radius: 50%;
+
   }
 
-  
+  .links {
+    a {
+      color: $secondary-color;
+      margin: 0 15px;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+.card img{
+  border: #333;
+  border-radius: 50%;
+  width:45vw;
+  height:12vh;
+  border:1px solid black;
 }
 
-.cards {
+.shop-upper {
+  background-color: $secondary-color;
+  padding: 20px;
+
+  .shop-upper-links {
+    display: flex;
+    justify-content: space-around;
+
+    a {
+      color: $primary-color;
+      text-decoration: none;
+      font-weight: bold;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.common {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding: 20px;
 
-  .espresso, .latte, .black, .mocha, .americano, .cappuccino, .flat-white, .cafe, .macchiato, .cold, .frappe, .red {
-    background-color: lighten($primary-color, 30%);
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
     border-radius: 8px;
-    margin: 10px;
     padding: 15px;
-    width:calc(30%-40); 
+    margin: 10px;
+    text-align: center;
+    width: 200px;
 
-    h2 {
-      margin: 0;
+    img {
+      width: 60px;
     }
 
-    .image {
-      display: flex;
-      justify-content: center;
+    h1 {
+      color: $primary-color;
+      font-size: 1.2em;
       margin: 10px 0;
     }
 
+    h2 {
+      color: #555;
+      font-size: 1em;
+    }
+
     h3 {
-      text-align: left;
-      margin-top: 10px;
+      color: #777;
+      font-size: 0.9em;
+    }
+
+    button {
+      background-color: $button-color;
+      color: #fff;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: darken($button-color, 10%);
+      }
     }
   }
 }
 
+.footer {
+  background-color:$footer-bg ;
+  color: $secondary-color;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
 
 
-  .espresso, .latte, .black, .mocha, .americano, .cappuccino, .flat-white, .cafe, .macchiato, .cold, .frappe, .red {
-    width: 90%; 
-  }
+  .footer-holder-1,
+  .footer-holder-2,
+  .footer-holder-3 {
+    flex: 1;
+    padding: 10px;
 
+    h1 {
+      font-size: 1.2em;
+    }
 
-        
-      
-
-
-    
-  .types{
-    color:white;
-    text-decoration: underline;
-    align-items: center; 
-      list-style-type: none;
-      padding: 0;
-      li {
-        margin: 5px 0;
-        font-weight: 500;
+    .social-media {
+      img {
+        width: 30px;
+        margin-right: 10px;
       }
     }
-  
-  
-//   .menu{
-//     color:aliceblue;
-//     text-decoration: wavy;
-//   }
-//   .style{
-//     color:peru;
-//     text-wrap: wrap;
-//     flex-shrink: 2%;
-//   }
-  
-//   .images{
-//     box-shadow: #3b2f2f;
-//     border-radius: 50px;
-//     padding:10px;
-//     position: sticky;
-//   }
-
-//     .side{ 
-//       // display: flex;
-//        height: 170px; 
-//          overflow: scroll;
-//         box-sizing:border-box;
-//         }
-//         .espresso{
-//           display:flex;
-//           border:1px solid white;
-//           border-radius: 5px;
-//           align-items:center;
-          
-//         }
-//         .latte{
-//           display:flex;
-//           border:1px solid white;
-//           border-radius: 5px;
-//           align-items:center;
-//         }
-//         .red-eye{
-//           flex-direction: row;
-//           border:1px solid white;
-//           border-radius: 5px;
-//           align-items:center;
-//         }
-//         .style{
-//           text-align:center;
-//           text-wrap:wrap;
-//         }
-//         .black{
-//           flex-direction: row;
-//           border:1px solid white;
-//           border-radius: 5px;
-//           align-items:center;
-//         }
-//         .mocha{
-//           flex-direction: row;
-//           border:1px solid white;
-//           border-radius: 5px;
-//           align-items:center;
-//         }
-//         .americano{
-//           flex-direction: row;
-//           border:1px solid white;
-//           border-radius: 5px;
-//           align-items:center;
-
-//         }
-//         .flat-white{
-//           flex-direction: row;
-//           border:1px solid white;
-//           border-radius: 5px;
-//           align-items:center;
-
-//         }
-//         .frappe{
-//           flex-direction: row;
-//           border:1px solid white;
-//           border-radius: 5px;
-//           align-items:center;
-
-//         }
-//         .macchiato{
-//           flex-direction: row;
-//           border:1px solid white;
-//           border-radius: 5px;
-//           align-items:center;
-//         }
-//         .cold{
-//           flex-direction: row;
-//           border:1px solid white;
-//           border-radius: 5px;
-//           align-items:center;
-//         }
-//         .red{
-//           flex-direction: row;
-//           border:1px solid white;
-//           border-radius: 5px;
-//           align-items:center;
-//         }
-//         .cafe{
-//           flex-direction: row;
-//           border:1px solid white;
-//           border-radius: 5px;
-//           align-items:center;
-//         }
-        
-
-
-
-
-
+  }
+}
