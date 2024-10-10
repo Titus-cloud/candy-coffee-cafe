@@ -541,7 +541,7 @@ button:hover {
 }
 .our-service .container .service-card img {
   width: 100%;
-  height: auto;
+  height: 60%;
   border-radius: 8px;
 }
 .our-service .container .service-card .service-content {
@@ -563,7 +563,7 @@ button:hover {
 }
 .partnership-form {
   max-width: 600px;
-  margin: 0 auto;
+  margin: 30px auto;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -578,9 +578,8 @@ button:hover {
 .partnership-form input[type=email],
 .partnership-form input[type=tel],
 .partnership-form input[type=url],
-.partnership-form textarea,
 .partnership-form select {
-  width: 100%;
+  width: 50%;
   color: #221A13;
   padding: 10px;
   margin-top: 5px;
@@ -588,6 +587,14 @@ button:hover {
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   background-color: #fff;
+}
+.partnership-form textarea {
+  border-radius: 5px;
+  resize: none;
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
 }
 .partnership-form input[type=radio] {
   margin-right: 5px;
@@ -621,75 +628,6 @@ button:hover {
   width: 75%;
 }
 
-.all-varieties {
-  gap: 3em;
-}
-
-.variaties {
-  gap: 2em;
-}
-
-@media only screen and (max-width: 600px) {
-  nav .nav {
-    flex-direction: column;
-    align-items: center;
-  }
-  .nav-left, .nav-center, .nav-right {
-    width: 100%;
-    text-align: center;
-  }
-  .nav-center ul {
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    margin: 0;
-  }
-  .nav-center ul li {
-    margin-bottom: 10px;
-  }
-  .menu-container h1, .menu-container span {
-    text-align: center;
-  }
-  .shop-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .varieties-container {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  .variaties-img img {
-    max-width: 100%;
-  }
-  .footer-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-  }
-  .footer-left, .quick-links, .newsletter {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  .quick-links ul {
-    display: flex;
-    flex-direction: column;
-  }
-  .newsletter .mail-box {
-    flex-direction: column;
-    align-items: center;
-  }
-  .newsletter .input {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-  .subscribe-btn {
-    width: 100%;
-  }
-}
 .monials-scrollable .service-scrollable {
   display: flex;
   flex-wrap: nowrap;
@@ -836,4 +774,43 @@ button:hover {
     padding: 6px 12px;
     font-size: 12px;
   }
+}
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #b57330;
+}
+
+.coffee-menu {
+  margin: 50px auto;
+}
+.coffee-menu .menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+.coffee-menu .menu-grid .menu-item {
+  background-color: #2D2017;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #b57330;
+}
+.coffee-menu .menu-grid .menu-item img {
+  width: 100%;
+  height: 60%;
+  border-radius: 10px;
+}
+.coffee-menu .menu-grid .menu-item h2 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  color: #fff;
+}
+.coffee-menu .menu-grid .menu-item p {
+  font-size: 1rem;
+  color: #fff;
+}
+.coffee-menu .menu-grid .menu-item p:last-child {
+  font-style: italic;
 }
