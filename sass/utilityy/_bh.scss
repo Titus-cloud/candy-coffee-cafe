@@ -1,12 +1,12 @@
 // Variables
-$primary-color: #6d4c41; // Example primary color
-$secondary-color: #fff; // Example secondary color
-$font-stack: 'Arial', sans-serif;
+$primary-color: #fff; 
+$secondary-color:#BC704a ; 
+$font-text: 'poppins', sans-serif;
 
 // Base styles
 body {
-  font-family: $font-stack;
-  background-color: $secondary-color;
+  font-family: $font-text;
+  background-color:$primary-color;
   margin: 0;
   padding: 0;
 }
@@ -14,11 +14,21 @@ body {
 section {
   padding: 20px;
 }
+.center{
+    display: flex;
+    align-items: center;
+}
+.place{
+    color:$primary-color;
+}
 
-.place {
+.placey {
   color: $primary-color;
   font-weight: bold;
   margin-bottom: 10px;
+  display:grid;
+  align-items: center;
+  flex-direction: row;
 }
 
 h2 {
@@ -41,14 +51,16 @@ h3 {
 }
 
 .flex-container {
-  display: flex;
+  display: grid;
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 20px 0;
+  flex-direction: row;
+  align-items: center;
 
   img {
     margin: 10px;
-    border-radius: 5px; // Optional: Adds rounded corners
+    border-radius: 50%;
   }
 }
 

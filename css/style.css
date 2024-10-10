@@ -126,7 +126,7 @@ body {
 }
 
 body {
-  font-family: "Arial", sans-serif;
+  font-family: "poppins", sans-serif;
   background-color: #fff;
   margin: 0;
   padding: 0;
@@ -136,8 +136,92 @@ section {
   padding: 20px;
 }
 
+.center {
+  display: flex;
+  align-items: center;
+}
+
 .place {
-  color: #6d4c41;
+  color: #fff;
+}
+
+.placey {
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: grid;
+  align-items: center;
+  flex-direction: row;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+.para {
+  margin: 10px 0;
+}
+.para p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.flex-container {
+  display: grid;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px 0;
+  flex-direction: row;
+  align-items: center;
+}
+.flex-container img {
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.sections {
+  margin-top: 30px;
+}
+.sections h2 {
+  margin-bottom: 20px;
+}
+.sections h3 {
+  margin: 10px 0;
+}
+
+.blak {
+  display: inline-block;
+  margin-right: 10px;
+}
+.blak img {
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #BC704A;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 20px;
+}
+
+.place {
+  color: #fff;
   font-weight: bold;
   margin-bottom: 10px;
 }
