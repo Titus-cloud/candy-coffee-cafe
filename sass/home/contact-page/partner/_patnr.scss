@@ -2,7 +2,7 @@
 
 .partnership-form {
   max-width: 600px;
-  margin: 0 auto;
+  margin: 30px auto;
   // background-color: $secondary-color;
   padding: 20px;
   border-radius: 10px;
@@ -19,9 +19,8 @@
   input[type="email"],
   input[type="tel"],
   input[type="url"],
-  textarea,
   select {
-    width: 100%;
+    width: 50%;
     color: $primary-color;
     padding: 10px;
     margin-top: 5px;
@@ -29,6 +28,14 @@
     border: 1px solid $shadow-color;
     border-radius: 5px;
     background-color: $font-color;
+  }
+  textarea{
+    border-radius: 5px;
+    resize: none;
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border: 1px solid $shadow-color;
   }
 
   input[type="radio"] {
