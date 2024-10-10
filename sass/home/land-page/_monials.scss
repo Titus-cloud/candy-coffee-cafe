@@ -8,15 +8,8 @@
     gap: 20px; 
     overflow-x: auto; 
     padding-bottom: 10px; 
-    
-
-    &::-webkit-scrollbar {
-      // display: none;
-    }
-
-    /* For all browsers */
     -ms-overflow-style: none; 
-    // scrollbar-width: none; 
+    
   }
 }
 .testimonials {
@@ -41,9 +34,9 @@
     overflow-x: scroll;
     scroll-behavior: smooth;
 
-    &::-webkit-scrollbar {
-      // display: none; /* Hide scroll bar */
-    }
+    // &::-webkit-scrollbar {
+    //   // display: none; /* Hide scroll bar */
+    // }
 
     .testimonial-card {
       background-color: $secondary-color;
