@@ -2,6 +2,7 @@
   // margin:0;
   // padding:0;
 // }
+@use "../utility/variables" as *;
 .container {
   max-width: 1200px;
   margin: auto;
@@ -31,7 +32,7 @@ h1, h2, h3 {
     border-radius: 8px;
     margin: 10px;
     padding: 15px;
-    width: calc(30% - 40px); 
+    width:calc(30%-40); 
 
     h2 {
       margin: 0;
