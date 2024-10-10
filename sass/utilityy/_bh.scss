@@ -1,7 +1,74 @@
-*{
-    margin:0;
-    padding:0;
+// Variables
+$primary-color: #6d4c41; // Example primary color
+$secondary-color: #fff; // Example secondary color
+$font-stack: 'Arial', sans-serif;
+
+// Base styles
+body {
+  font-family: $font-stack;
+  background-color: $secondary-color;
+  margin: 0;
+  padding: 0;
 }
-.our-place{
-    background-color: black;
+
+section {
+  padding: 20px;
+}
+
+.place {
+  color: $primary-color;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+.para {
+  margin: 10px 0;
+
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px 0;
+
+  img {
+    margin: 10px;
+    border-radius: 5px; // Optional: Adds rounded corners
+  }
+}
+
+.sections {
+  margin-top: 30px;
+
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    margin: 10px 0;
+  }
+}
+
+.blak {
+  display: inline-block;
+  margin-right: 10px;
+
+  img {
+    display: block; // Ensures the image doesn't have extra space below it
+  }
 }

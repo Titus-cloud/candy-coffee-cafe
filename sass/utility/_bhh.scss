@@ -13,7 +13,7 @@ body {
   font-family: $font-stack;
   margin: 0;
   padding: 0;
-  background-color: #6f4c3e;
+  background-color:$primary-color;
 }
 
 .nav {
@@ -124,6 +124,7 @@ body {
   padding: 20px;
   display: flex;
   justify-content: space-around;
+
 
   .footer-holder-1,
   .footer-holder-2,
