@@ -64,6 +64,7 @@ a:hover {
 .footer-container .footer-left .logo {
   width: 100px;
   margin-bottom: 20px;
+  border-radius: 50%;
 }
 .footer-container .footer-left .social-icons {
   display: flex;
