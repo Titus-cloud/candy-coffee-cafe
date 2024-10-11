@@ -705,8 +705,7 @@ button:hover {
 .about-content p {
   margin-bottom: 15px;
   line-height: 2;
-  font-size: 18px;
-  padding: 12px;
+  padding: 4px;
 }
 
 @media (max-width: 768px) {
