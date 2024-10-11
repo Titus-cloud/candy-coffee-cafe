@@ -9,12 +9,12 @@ h1 {
 
 // Coffee Menu Section
 .coffee-menu {
-  margin: 50px auto;
+  margin: 4em auto;
   
 
   .menu-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
 
     .menu-item {
@@ -24,7 +24,10 @@ h1 {
       text-align: center;
       padding: 20px;
       border: 2px solid $link-hover;
-
+      
+      .prs{
+        color: $link-hover;
+      }
       img {
         width: 100%;
         height: 60%;
@@ -36,6 +39,7 @@ h1 {
         margin: 10px 0;
         color: $font-color;
       }
+
 
       p {
         font-size: 1rem;

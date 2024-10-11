@@ -46,11 +46,12 @@
         text-align: center;
         line-height: 35px;
         font-size: 16px;
+        color: $font-color;
         transition: background-color 0.3s ease;
 
         &:hover {
           background-color: $link-hover;
-          color: #fff;
+          color: $font-color;
         }
       }
     }
@@ -64,7 +65,7 @@
       margin-bottom: 10px;
 
       a {
-        color: #fff;
+        color: $font-color;
         text-decoration: none;
 
         &:hover {
@@ -79,7 +80,7 @@
     font-size: 14px;
 
     a {
-      color: #fff;
+      color: $font-color;
       text-decoration: none;
 
       &:hover {
@@ -119,13 +120,15 @@
         border: 2px solid $font-color;
         color: $font-color;
         cursor: pointer;
+        margin-bottom: 50px;
 
         i {
           font-size: 16px;
+          color: $font-color;
         }
 
         &:hover {
-          background-color: $link-hover;
+          // background-color: $link-hover;
           border-color: $link-hover;
         }
       }

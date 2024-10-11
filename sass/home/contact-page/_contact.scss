@@ -1,34 +1,41 @@
+@use "../../utilities/variables" as *;
+
 button {
   padding: 15px;
-  background-color: transparent;
-  color: #f4a261;
-  border: 2px solid #f4a261;
+  background-color: $primary-color;
+  color: $font-color;
+  border: 2px solid $link-hover;
   font-size: 16px;
   cursor: pointer;
   text-transform: uppercase;
   letter-spacing: 2px;
   border-radius: 50px;
   transition: all 0.3s ease;
+  margin-top: 50px;
 
   &:hover {
-    background-color: #f4a261;
-    color: #231915;
+    background-color: $link-hover;
+    color: $primary-color;
   }
 }
-
+.part{
+  margin-top: 5em;
+  width: 15em;
+}
 .contact-section {
   display: flex;
   justify-content: space-between;
-  padding: 50px;
-  background-color: #231915;
-  color: #fff;
+  padding: 5em;
+  background-color: $secondary-color;
+  color: $font-color;
   border-radius: 15px;
   position: relative;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 30px $shadow-color;
 
   .contact-info {
-    // width: 40%;
+    width: 40%;
     // padding-right: 50px;
+    // text-align: center;
 
     h2 {
       font-size: 48px;
@@ -40,15 +47,17 @@ button {
       margin-bottom: 20px;
       
       strong {
+        margin-bottom: 20px;
         display: block;
         font-size: 18px;
-        margin-bottom: 10px;
-        font-weight: 700;
+        // font-weight: 700;
       }
 
       p {
         font-size: 16px;
-        line-height: 1.5;
+        margin-bottom: 20px;
+        // line-height: 5;
+        // gap: 5;
 
         a {
           color: #f4a261;

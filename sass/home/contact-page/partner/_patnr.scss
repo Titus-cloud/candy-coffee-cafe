@@ -2,8 +2,8 @@
 
 .partnership-form {
   max-width: 600px;
-  margin: 30px auto;
-  // background-color: $secondary-color;
+  margin: 4em auto;
+  background-color: $secondary-color;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 2px 5px $shadow-color;
@@ -59,6 +59,10 @@
     &:hover {
       background-color: $link-hover;
       color: $font-color;
+    }
+    &:active{
+      background-color: $primary-color;
+      color: $link-hover;
     }
   }
 
